@@ -1,0 +1,87 @@
+
+.label {margin-right:5px;margin-bottom:5px !important;display:inline-block;} #wrapper {
+    position: relative;
+}
+.dataTables_wrapper .dataTables_length{
+    margin-top: 3px !important;
+    margin-right: 20px !important;
+}
+.action-delete{
+    width: 30px;
+}
+.user-header{
+    float: right;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.icon-header{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #ffff;
+    text-align: center;
+    padding: 4px;
+    font-size: 20px;
+}
+.icon-main{
+    display: none;
+}
+.username-header{
+    margin-right: 20px;
+    color: #ffff;
+    font-weight: 600;
+}
+.show{
+    display: block;
+}
+.icon-header {
+    position: relative; 
+  }
+  .icon-header:hover{
+    background-color: #357ca5;
+  }
+  
+  .icon-main {
+    position: absolute;
+    right: 0;
+    top: 100%;
+    background-color: #fff; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none; 
+  }
+  
+ 
+  .icon-header:hover .icon-main {
+    display: flex;
+    flex-direction: column; 
+    align-items: stretch; 
+    justify-content: center;
+    background-color: #357ca5;
+  }
+  
+  .icon-main a {
+    display: flex;
+    text-align: center;
+    padding: 5px;
+    color: #333;
+    text-decoration: none; 
+    width: 100%;
+  }
+  .icon-main a i{
+    margin-right: 5px;
+    margin-top: 4px;
+  }
+  .icon-main a:hover {
+    background-color: #357ca5;
+  }
+  .icon-messenger{
+    margin-right: 20px;
+  }
+  .icon-messenger i{
+    color: #ffff;
+  }
+  .icon-messenger i:hover{
+    color: #357ca5;
+  }
